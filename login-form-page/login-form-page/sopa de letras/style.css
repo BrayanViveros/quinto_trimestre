@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  #puzzle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .letter {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #da0000;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .found {
+    background-color: #aaffaa;
+  }
+
+  #words {
+    margin-bottom: 20px;
+  }
+
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+  }
