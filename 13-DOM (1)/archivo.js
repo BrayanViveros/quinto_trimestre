@@ -75,7 +75,7 @@ function datos() {
     );}*/
     function datos(mes, año, trimestre, competencia){
 
-        let mensaje = (`Mes: ${mes}\nAño: ${año}\nTrimestre: ${trimestre}\nCompetencia: ${competencia} jumm${checked}`);
+        let mensaje = (`Mes: ${mes}\nAño: ${año}\nTrimestre: ${trimestre}\nCompetencia: ${competencia} `);
        
         let mensajefinal=document.getElementById("parrafo").textContent=mensaje;
 
